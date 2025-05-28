@@ -92,7 +92,8 @@ accelerate>=0.20.0
 - **Base Model**: `databricks/dolly-v2-3b`
 - **Parameters**: 2.8B total, 83.8M trainable
 - **Quantization**: 8-bit loading
-- **Dataset**: Microsoft Orca Math Word Problems (200 samples)
+- **Dataset**: MBZUAI/LaMini-instruction (200 samples)
+link- https://huggingface.co/datasets/MBZUAI/LaMini-instruction
 
 ## 📊 Results
 
@@ -162,21 +163,11 @@ accelerate>=0.20.0
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - Hugging Face for the transformers and PEFT libraries
 - Databricks for the Dolly-v2 model
-- Microsoft for the Orca dataset
-- The open-source community for making this possible
+-huggingface for datasets
 
-## 📞 Contact
-
-If you have any questions or suggestions, please open an issue or reach out!
-
----
-
-**Note**: This project is for educational and research purposes. Please ensure compliance with model licenses and usage policies when adapting for commercial use.
